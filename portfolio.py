@@ -10,7 +10,7 @@ st.write("my hobby is to develop brochure for advertisement")
 st.write("I am a beginner in programming languages.")
 
 # Open and resize the image
-img = Image.open(r"C:\Users\ACER\Downloads\BZGL4585[1].JPG")
+img = Image.open("BZGL4585[1].JPG")
 img = img.resize((300,400))  # Adjust the size (width, height) as needed
 st.image(img)
 
