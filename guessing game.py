@@ -63,13 +63,7 @@ def main():
             st.session_state.high = 100
             st.session_state.attempts = 0
 
-    # Option to reset the game
-    if st.button("Restart Game"):
-        st.session_state.low = 1
-        st.session_state.high = 100
-        st.session_state.attempts = 0
-        st.session_state.guess = None
-        st.experimental_user()
+
 
 if __name__ == '__main__':
     main()
